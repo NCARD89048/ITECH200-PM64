@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Nathaniel D. Cardenas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            index
+        </title>
+        <style>
+            * {
+                margin: auto;
+                text-align: center;
+                padding: 0.25rem;
+            }
+            span {
+                padding: 0rem;
+            }
+            #Nathaniel {
+                color: darkgreen;
+            }
+            .myStyle {
+                font-family: Helvetica, sans-serif;
+            }
+            body {
+                background-image: url("https://64.media.tumblr.com/b5cfdc0fd6eaadbf2245159fd9b11c42/tumblr_o79xv39b0D1rrftcdo1_400.gifv"); /* DKC2 Bramble Blast BG */
+                background-origin: padding-box;
+                background-size: 30%;
+                min-width: 75rem;
+                background-image: url("https://i.ytimg.com/vi/06tTwaaxbRc/maxresdefault.jpg"); /* SSBM FD Skybox */
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url("https://mario.wiki.gallery/images/9/96/PaperMarioTitleScreen.png"); /* https://www.mariowiki.com/File:PaperMarioTitleScreen.png */
+                background-attachment: fixed;
+            }
+            #all {
+                background-color: lightgreen;
+                margin: 1rem;
+                border: 0.25rem solid darkgreen;
+            }
+            header>*, section, footer {
+                background-color: lightgreen;
+                margin: auto;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                width: 95%;
+                border: 0.25rem solid darkgreen;
+            }
+            header>h1 {
+                max-width: 15rem;
+            }
+            header>img {
+                max-width: 30rem;
+                border: 0rem solid darkgreen;
+            }
+            section {
+                max-width: 40rem;
+            }
+            footer {
+                max-width: 20rem;
+            }
+            nav {
+                background-color: lightgreen;
+                margin: auto;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                width: 15%;
+                max-width: 10rem;
+                min-height: 16rem;
+                border: 0.25rem solid darkgreen;
+                position: fixed;
+            }
+            /*nav>div {
+                background-color: lightgreen;
+                margin: 0px;
+                margin-bottom: 0.5rem;
+                width: 90%;
+                border: 0.25rem solid darkgreen;
+            }*/
+            /*a {
+                color: rgba(238, 119, 0, 1.0);
+            }*/
+            .gifSyle {
+                background-image: url("https://64.media.tumblr.com/b5cfdc0fd6eaadbf2245159fd9b11c42/tumblr_o79xv39b0D1rrftcdo1_400.gifv"); /* DKC2 Bramble Blast BG */
+                background-origin: padding-box;
+                background-size: 6%;
+                padding: 1rem;
+                width: 15rem;
+                border: 0.25rem solid black;
+                font-size: 2rem;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .weekStyle {
+                background-color: white;
+                background-image: url(""); /* null */
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-origin: padding-box;
+                background-attachment: fixed;
+                max-width: 70rem;
+                /* min-height: 40rem; */
+                min-height: 15rem;
+
+                color: white;
+                text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000;
+            }
+            .weekStyle h1 {
+                font-size: 2.25rem; /* 1.5*1.5 */
+                color: lightgreen;
+            }
+            .weekStyle p {
+                font-size: 1.5rem; /* 1*1.5 */
+            }
+            /*.weekStyle:nth-child(odd) {
+                margin-left: 0rem;
+            }
+            .weekStyle:nth-child(even) {
+                margin-right: 0rem;
+            }*/
+            #nonWeekExample {
+                background-image: url("https://pbs.twimg.com/media/ExxN-CqWEAUB0fO?format=jpg&name=medium"); /* Mario Sunshine Skybox */
+                min-height: 40rem;
+            }
+            #week0Example {
+                background-image: url("https://i.ytimg.com/vi/06tTwaaxbRc/maxresdefault.jpg"); /* SSBM FD Skybox */
+                color: white;
+                min-height: 40rem;
+            }
+            #narrative {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/b4fd9de69e6f63c3506625484169bdc8/7dd4ced0ef7dfc82-fc/s400x600/0b35573ddb71093f7faf9cdc0a37e2a7b8102ff8.gifv"); /* https://smallmariofindings.tumblr.com/post/660076709481218048/in-paper-mario-a-variety-of-glitches-cause-the */
+            }
+            #mechanics {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/99f770cdc70809093ed863c3e057bfa0/tumblr_pylnvqPVty1rrftcdo1_400.gifv"); /* https://www.suppermariobroth.com/post/188066906555/a-very-obscure-feature-in-the-kent-c-koopa-fight *//* Image #1*/
+            }
+            #production {
+                background-image: url("https://64.media.tumblr.com/d705503aec7c93bbe91c7fde5f37041b/084a7a89940eb63e-c4/s1280x1920/e40bff93ed71b07a7ee2305486322c09c886e9cd.jpg"); /* https://www.suppermariobroth.com/post/655816481772322816/this-hidden-room-within-tubba-blubbas-castle-in */
+            }
+            #audio {
+                background-image: url("https://mario.wiki.gallery/images/5/59/PM_Star_Piece_PleasantPathCandyCane.png"); /* https://www.mariowiki.com/File:PM_Star_Piece_PleasantPathCandyCane.png */
+            }
+            #art {
+                background-image: url("imgs/Free_Demo.png"); /* 2001 magazine ad, via https://twitter.com/addison_l/status/1289389581805076480 */
+            }
+            #elements {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/9da92dcff24d0655ab778c7dcbb14b4d/ca08c387c61d05f1-74/s400x600/5ebc886af6945f87074db2adfbd80d2ae9d291b5.gifv"); /* https://www.suppermariobroth.com/post/667221117608558592/in-paper-mario-the-general-guy-boss-battle-is */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all">
+            <nav>
+                <h3>
+                    Content
+                </h3>
+                <div>
+                    <p>
+                        <a href="#">Top</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <a href="#narrative">Narrative</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <a href="#mechanics">Gameplay Mechanics</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <a href="#production">Production</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <a href="#audio">Game Audio</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <a href="#art">Game Art</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <a href="#elements">Game Elements</a>
+                    </p>
+                </div>
+            </nav>
+            <header>
+                <!--<h1 class="myStyle">Paper Mario (Nintendo 64)</h1>-->
+                <img src="https://mario.wiki.gallery/images/1/18/PaperMarioLogo.png" alt="Paper Mario (Nintendo 64)"> <!-- https://www.mariowiki.com/File:PaperMarioLogo.png-->
+            </header>
+            <!--
+            <section id="nonWeekExample" class="weekStyle">
+                <p>
+                    <div>
+                        BODY
+                    </div>
+                    BODY<br>
+                    BODY
+                </p>
+                <div class="gifSyle">
+                    UNREADABLE!                    
+                </div>
+            </section>
+            <section id="week0Example" class="weekStyle">
+                <h1>
+                    Content
+                </h1>
+                <div>
+                    <p>
+                        ...
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        ...
+                    </p>
+                </div>
+            </section>
+            -->
+            <section id="narrative" class="weekStyle">
+                <h1>
+                    Narrative
+                </h1>
+                <div>
+                    <p>
+                        The main gimmick of Paper Mario is the fact that it has a story at all, despite being a Mario game; <br>this is the reason that the Japanese version of the game is named "Mario Story" rather than "Paper Mario", <br>unlike rest of the series.
+                    </p>
+                    <p>
+                        Paper Mario's story starts of with usual Mario antagonist Bowser stealing the mystical Star Rod, which can grant any wish. This is so, when Mario next gains the upper hand during Bowser's next attempt to kidnap Princess Peach, the Koopa King can just make himself invincible and knock Mario out of the upper atmosphere. <br>(This particular kidnapping attempt involved airlifting Peach's castle to space, seemingly for no reason.)
+                    </p>
+                    <p>
+                        After recovering from playing the part of a human comet, helping the inhabitants of the Mushroom Kingdom repel Bowser's forces, and rescuing the seven spirits to whom the Star Rod rightfully belongs, the spirits inform Mario that they can nullify Bowser's invincibility wish with the Star Beam attack and transport Mario and his assembled party to Bowser's castle. With some timely intervention from Princess Peach to get past Bowser's countermeasure for the Star Beam, Mario defeats Bowser and everything goes back to normal.
+                    </p>
+                </div>
+            </section>
+            <section id="mechanics" class="weekStyle">
+                <h1>
+                    Gameplay Mechanics
+                </h1>
+                <div>
+                    <p>
+                        Paper Mario is a turn-based role-playing game where you control Mario and one of several "partner" party members, 
+                        who can be swapped out at any point to take advantage of their unique abilities both in battle and on the overworld. 
+                        Only one partner can be active at once, and it's game over if Mario dies no matter what, 
+                        but to make up for this partners have infinite HP and can only be hit by a select few enemy attacks. 
+                    </p>
+                    <p>
+                        Battles mainly rely on "Badges", a point-buy-based replacement for traditional equipment, 
+                        and "Action Commands", inputs that can be done during attack animations in order to boost damage or trigger additional effects. 
+                    </p>
+                    <p>
+                        Mario himself has access to two forms of traditional role-playing game equipment, both in the form of things that are permanently upgraded throughout the story: 
+                        Hammers, which each grant Mario an additional hammer-based attack during battles and can destroy increasingly tough blocks, 
+                        and Boots, which do somthing similar for Mario's jumping ability; 
+                        without specific Badges equipped, some foes are unable to be hit with Mario's hammer, and a few such as Spinys hurt if Mario tries to jump on them. 
+                        Upgrading partners, by contrast, only gives them a new attack, and is done by using the optional Super Blocks; 
+                        each partner can be upgraded up to twice once you reach the halfway point of chapter five. (Of eight)
+                    </p>
+                </div>
+            </section>
+            <section id="production" class="weekStyle">
+                <h1>
+                    Production
+                </h1>
+                <div>
+                    <p>
+                        ...
+                    </p>
+                </div>
+            </section>
+            <section id="audio" class="weekStyle">
+                <h1>
+                    Game Audio
+                </h1>
+                <div>
+                    <p>
+                        ...
+                    </p>
+                </div>
+            </section>
+            <section id="art" class="weekStyle">
+                <h1>
+                    Game Art
+                </h1>
+                <div>
+                    <p>
+                        ...
+                    </p>
+                </div>
+            </section>
+            <section id="elements" class="weekStyle">
+                <h1>
+                    Game Elements
+                </h1>
+                <div>
+                    <p>
+                        ...
+                    </p>
+                </div>
+            </section>
+            <footer>
+                <p>
+                    Blog by <span id="Nathaniel">Nathaniel D. Cardenas</span>.
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

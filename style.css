@@ -1,0 +1,199 @@
+* {
+    margin: auto;
+    text-align: center;
+    padding: 0.25rem;
+}
+span {
+    padding: 0rem;
+}
+#License {
+    color: darkgreen;
+}
+.myStyle {
+    font-family: Helvetica, sans-serif;
+}
+body {
+    background-image: url("https://64.media.tumblr.com/b5cfdc0fd6eaadbf2245159fd9b11c42/tumblr_o79xv39b0D1rrftcdo1_400.gifv"); /* DKC2 Bramble Blast BG */
+    background-origin: padding-box;
+    background-size: 30%;
+    min-width: 75rem;
+    background-image: url("https://i.ytimg.com/vi/06tTwaaxbRc/maxresdefault.jpg"); /* SSBM FD Skybox */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://mario.wiki.gallery/images/8/8f/PM_Prerelease_Cover_Artwork_v2.png"); /* https://www.mariowiki.com/File:PaperMarioTitleScreen.png */
+    background-attachment: fixed;
+}
+#all {
+    background-image: linear-gradient(#c9120c, #ff6a00, #e7bb25);
+    background-color: #ff6a00;
+    margin: 1rem;
+    border: 0.25rem solid #58529e;
+}
+header>*, section, footer {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 95%;
+    border: 0.25rem solid #58529e;
+}
+header>h1 {
+    max-width: 15rem;
+}
+header>img {
+    max-width: 30rem;
+    border: 0rem solid #58529e;
+}
+section {
+    max-width: 40rem;
+}
+footer {
+    max-width: 20rem;
+}
+nav {
+    background-color: #eef0fd;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 15%;
+    max-width: 10rem;
+    min-height: 12rem;
+    border: 0.25rem solid #58529e;
+    position: fixed;
+    font-family: 'Hey Gorgeous!', "Courier New", Courier;
+    font-size: 13px;
+}
+/*nav>div {
+    background-color: lightgreen;
+    margin: 0px;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    border: 0.25rem solid darkgreen;
+}*/
+/*a {
+    color: rgba(238, 119, 0, 1.0);
+}*/
+.gifSyle {
+    background-image: url("https://64.media.tumblr.com/b5cfdc0fd6eaadbf2245159fd9b11c42/tumblr_o79xv39b0D1rrftcdo1_400.gifv"); /* DKC2 Bramble Blast BG */
+    background-origin: padding-box;
+    background-size: 6%;
+    padding: 1rem;
+    width: 15rem;
+    border: 0.25rem solid black;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weekStyle {
+    background-color: white;
+    background-image: url(""); /* null */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: padding-box;
+    background-attachment: fixed;
+    max-width: 70rem;
+    /* min-height: 40rem; */
+    min-height: 15rem;
+
+    color: white;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000;
+}
+.weekStyle h1 {
+    font-size: 2.25rem; /* 1.5*1.5 */
+    color: #6c65b8;
+}
+.weekStyle p {
+    text-align: left;
+    font-family: 'Hey Gorgeous!', "Courier New", Courier;
+}
+/*.weekStyle:nth-child(odd) {
+    margin-left: 0rem;
+}
+.weekStyle:nth-child(even) {
+    margin-right: 0rem;
+}*/
+#nonWeekExample {
+    background-image: url("https://pbs.twimg.com/media/ExxN-CqWEAUB0fO?format=jpg&name=medium"); /* Mario Sunshine Skybox */
+    min-height: 40rem;
+}
+#week0Example {
+    background-image: url("https://i.ytimg.com/vi/06tTwaaxbRc/maxresdefault.jpg"); /* SSBM FD Skybox */
+    color: white;
+    min-height: 40rem;
+}
+#narrative {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/b4fd9de69e6f63c3506625484169bdc8/7dd4ced0ef7dfc82-fc/s400x600/0b35573ddb71093f7faf9cdc0a37e2a7b8102ff8.gifv"); /* https://smallmariofindings.tumblr.com/post/660076709481218048/in-paper-mario-a-variety-of-glitches-cause-the */
+}
+#narrativeTTYD {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/8023dedb9963eebc8ec7325a33e1a935/efc595e3608dd780-97/s640x960/25f8af5066b13569f6ea5fd9b3bee7790cd331d0.gifv");
+}
+#mechanics {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/99f770cdc70809093ed863c3e057bfa0/tumblr_pylnvqPVty1rrftcdo1_400.gifv"); /* https://www.suppermariobroth.com/post/188066906555/a-very-obscure-feature-in-the-kent-c-koopa-fight *//* Image #1*/
+}
+#battleMechanics {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media1.tenor.com/m/mNDzkRobB7QAAAAd/paper-mario-the-thousand-year-door-jrpg.gif");
+}
+#worldMechanics {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mario.wiki.gallery/images/d/d7/PMTTYD_Mario_airplane.png")
+}
+#production {
+    background-image: url("https://64.media.tumblr.com/d705503aec7c93bbe91c7fde5f37041b/084a7a89940eb63e-c4/s1280x1920/e40bff93ed71b07a7ee2305486322c09c886e9cd.jpg"); /* https://www.suppermariobroth.com/post/655816481772322816/this-hidden-room-within-tubba-blubbas-castle-in */
+}
+#audio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mario.wiki.gallery/images/5/59/PM_Star_Piece_PleasantPathCandyCane.png"); /* https://www.mariowiki.com/File:PM_Star_Piece_PleasantPathCandyCane.png */
+}
+#art {
+    background-image: url("imgs/Free_Demo.png"); /* 2001 magazine ad, via https://twitter.com/addison_l/status/1289389581805076480 */
+}
+#elements {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/9da92dcff24d0655ab778c7dcbb14b4d/ca08c387c61d05f1-74/s400x600/5ebc886af6945f87074db2adfbd80d2ae9d291b5.gifv"); /* https://www.suppermariobroth.com/post/667221117608558592/in-paper-mario-the-general-guy-boss-battle-is */
+}
+#character {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/7f06b0b8f4ecec01a624dc36032b0319/46708befbaf2d67d-38/s640x960/8a48c1e6445283a6d13c647d6256d4572a324494.png"); /* https://www.suppermariobroth.com/post/683434240415825920/an-obscure-character-from-paper-mario-is-the */
+/*
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/5c2f02e3c51d46b04a10c73b024562c3/tumblr_pi03l8fRqs1rrftcdo2_r1_540.jpg"); /* https://www.suppermariobroth.com/post/179977013870/in-paper-mario-most-chapter-intros-have-mario */
+}
+#characterTTYD {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mario.wiki.gallery/images/7/72/Koops_and_Mario_PMTTYD.png");
+}
+#wiiVC {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://supermariofiles.files.wordpress.com/2021/09/sc_2021-09-12_19_40_27.png"); /* https://supermariofiles.wordpress.com/2021/09/13/tidal-wave/ */
+}
+#switch {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mario.wiki.gallery/images/thumb/d/d1/TTYD_NS_Creepy_Steeple.png/1600px-TTYD_NS_Creepy_Steeple.png");
+}
+/* https://www.suppermariobroth.com/post/704275359298879488/in-paper-mario-using-ultra-boots-it-is-possible
+https://twitter.com/Stryder7x/status/1198838392865181696
+ https://papermario.fandom.com/wiki/Tidal_Wave?file=Tidal_Wave_Crash_Glitch.png */
+
+.redLinks a:hover {
+    color:#c9120c;
+}
+
+.yellowLinks a:hover {
+    color:#e7bb25;
+}
+
+h1 {
+    font-family: 'Mario', Copperplate, sans-serif;
+}
+
+h3 {
+    font-family: 'Mario', Copperplate, sans-serif;
+    font-size: 25px;
+}
+
+a {
+    color: #5a56a0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Hey Gorgeous!";
+    src: url("fonts/heygorgeous.ttf");
+}
+
+@font-face {
+    font-family: "Mario";
+    src: url("fonts/MARIO_Font_v3_Solid.otf");
+}

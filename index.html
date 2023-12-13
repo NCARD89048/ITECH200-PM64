@@ -4,185 +4,49 @@
         <!-- Nathaniel D. Cardenas -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
-            Game Blog Assignment
+            Paper Mario
         </title>
-        <style>
-            * {
-                margin: auto;
-                text-align: center;
-                padding: 0.25rem;
-            }
-            span {
-                padding: 0rem;
-            }
-            #License {
-                color: darkgreen;
-            }
-            .myStyle {
-                font-family: Helvetica, sans-serif;
-            }
-            body {
-                background-image: url("https://64.media.tumblr.com/b5cfdc0fd6eaadbf2245159fd9b11c42/tumblr_o79xv39b0D1rrftcdo1_400.gifv"); /* DKC2 Bramble Blast BG */
-                background-origin: padding-box;
-                background-size: 30%;
-                min-width: 75rem;
-                background-image: url("https://i.ytimg.com/vi/06tTwaaxbRc/maxresdefault.jpg"); /* SSBM FD Skybox */
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-image: url("https://mario.wiki.gallery/images/9/96/PaperMarioTitleScreen.png"); /* https://www.mariowiki.com/File:PaperMarioTitleScreen.png */
-                background-attachment: fixed;
-            }
-            #all {
-                background-color: lightgreen;
-                margin: 1rem;
-                border: 0.25rem solid darkgreen;
-            }
-            header>*, section, footer {
-                background-color: lightgreen;
-                margin: auto;
-                margin-top: 1rem;
-                margin-bottom: 1rem;
-                width: 95%;
-                border: 0.25rem solid darkgreen;
-            }
-            header>h1 {
-                max-width: 15rem;
-            }
-            header>img {
-                max-width: 30rem;
-                border: 0rem solid darkgreen;
-            }
-            section {
-                max-width: 40rem;
-            }
-            footer {
-                max-width: 20rem;
-            }
-            nav {
-                background-color: lightgreen;
-                margin: auto;
-                margin-top: 1rem;
-                margin-bottom: 1rem;
-                width: 15%;
-                max-width: 10rem;
-                min-height: 12rem;
-                border: 0.25rem solid darkgreen;
-                position: fixed;
-            }
-            /*nav>div {
-                background-color: lightgreen;
-                margin: 0px;
-                margin-bottom: 0.5rem;
-                width: 90%;
-                border: 0.25rem solid darkgreen;
-            }*/
-            /*a {
-                color: rgba(238, 119, 0, 1.0);
-            }*/
-            .gifSyle {
-                background-image: url("https://64.media.tumblr.com/b5cfdc0fd6eaadbf2245159fd9b11c42/tumblr_o79xv39b0D1rrftcdo1_400.gifv"); /* DKC2 Bramble Blast BG */
-                background-origin: padding-box;
-                background-size: 6%;
-                padding: 1rem;
-                width: 15rem;
-                border: 0.25rem solid black;
-                font-size: 2rem;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            .weekStyle {
-                background-color: white;
-                background-image: url(""); /* null */
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-origin: padding-box;
-                background-attachment: fixed;
-                max-width: 70rem;
-                /* min-height: 40rem; */
-                min-height: 15rem;
-
-                color: white;
-                text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000;
-            }
-            .weekStyle h1 {
-                font-size: 2.25rem; /* 1.5*1.5 */
-                color: lightgreen;
-            }
-            .weekStyle p {
-                font-size: 1.5rem; /* 1*1.5 */
-            }
-            /*.weekStyle:nth-child(odd) {
-                margin-left: 0rem;
-            }
-            .weekStyle:nth-child(even) {
-                margin-right: 0rem;
-            }*/
-            #nonWeekExample {
-                background-image: url("https://pbs.twimg.com/media/ExxN-CqWEAUB0fO?format=jpg&name=medium"); /* Mario Sunshine Skybox */
-                min-height: 40rem;
-            }
-            #week0Example {
-                background-image: url("https://i.ytimg.com/vi/06tTwaaxbRc/maxresdefault.jpg"); /* SSBM FD Skybox */
-                color: white;
-                min-height: 40rem;
-            }
-            #narrative {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/b4fd9de69e6f63c3506625484169bdc8/7dd4ced0ef7dfc82-fc/s400x600/0b35573ddb71093f7faf9cdc0a37e2a7b8102ff8.gifv"); /* https://smallmariofindings.tumblr.com/post/660076709481218048/in-paper-mario-a-variety-of-glitches-cause-the */
-            }
-            #mechanics {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/99f770cdc70809093ed863c3e057bfa0/tumblr_pylnvqPVty1rrftcdo1_400.gifv"); /* https://www.suppermariobroth.com/post/188066906555/a-very-obscure-feature-in-the-kent-c-koopa-fight *//* Image #1*/
-            }
-            #production {
-                background-image: url("https://64.media.tumblr.com/d705503aec7c93bbe91c7fde5f37041b/084a7a89940eb63e-c4/s1280x1920/e40bff93ed71b07a7ee2305486322c09c886e9cd.jpg"); /* https://www.suppermariobroth.com/post/655816481772322816/this-hidden-room-within-tubba-blubbas-castle-in */
-            }
-            #audio {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mario.wiki.gallery/images/5/59/PM_Star_Piece_PleasantPathCandyCane.png"); /* https://www.mariowiki.com/File:PM_Star_Piece_PleasantPathCandyCane.png */
-            }
-            #art {
-                background-image: url("imgs/Free_Demo.png"); /* 2001 magazine ad, via https://twitter.com/addison_l/status/1289389581805076480 */
-            }
-            #elements {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/9da92dcff24d0655ab778c7dcbb14b4d/ca08c387c61d05f1-74/s400x600/5ebc886af6945f87074db2adfbd80d2ae9d291b5.gifv"); /* https://www.suppermariobroth.com/post/667221117608558592/in-paper-mario-the-general-guy-boss-battle-is */
-            }
-            #character {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/7f06b0b8f4ecec01a624dc36032b0319/46708befbaf2d67d-38/s640x960/8a48c1e6445283a6d13c647d6256d4572a324494.png"); /* https://www.suppermariobroth.com/post/683434240415825920/an-obscure-character-from-paper-mario-is-the */
-            /*
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://64.media.tumblr.com/5c2f02e3c51d46b04a10c73b024562c3/tumblr_pi03l8fRqs1rrftcdo2_r1_540.jpg"); /* https://www.suppermariobroth.com/post/179977013870/in-paper-mario-most-chapter-intros-have-mario */
-            }
-            #wiiVC {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://supermariofiles.files.wordpress.com/2021/09/sc_2021-09-12_19_40_27.png"); /* https://supermariofiles.wordpress.com/2021/09/13/tidal-wave/ */
-            }
-            /* https://www.suppermariobroth.com/post/704275359298879488/in-paper-mario-using-ultra-boots-it-is-possible
-            https://twitter.com/Stryder7x/status/1198838392865181696
-             https://papermario.fandom.com/wiki/Tidal_Wave?file=Tidal_Wave_Crash_Glitch.png */
-        </style>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        
     </head>
     <body>
         <div id="all">
             <nav>
-                <h3>
-                    Content
+
+                <h3 style="color:#c9120c">
+                    Pages
                 </h3>
+                <div class="yellowLinks">
                 <div>
-                    <p>
+                    <h4><a href="index.html">64</a></h4>
+                </div>
+                <div>
+                    <h4><a href="ttyd.html">Thousand-Year Door</a></h4>
+                </div>
+                </div>
+                <h3 style="color:#e7bb25">
+                    Table of Contents
+                </h3>
+                <div class="redLinks">
+                <div>
+                    <h4>
                         <a href="#">Top</a>
-                    </p>
+                    </h4>
                 </div>
                 <div>
-                    <p>
+                    <h4>
                         <a href="#narrative">Narrative</a>
-                    </p>
+                    </h4>
                 </div>
                 <div>
-                    <p>
+                    <h4>
                         <a href="#mechanics">Gameplay Mechanics</a>
-                    </p>
+                    </h4>
                 </div>
                 <div>
-                    <p>
+                    <h4>
                         <a href="#character">Characters</a>
-                    </p>
+                    </h4>
                 </div>
                 <!--
                 <div>
@@ -192,9 +56,9 @@
                 </div>
                 -->
                 <div>
-                    <p>
+                    <h4>
                         <a href="#audio">Game Audio</a>
-                    </p>
+                    </h4>
                 </div>
                 <!--
                 <div>
@@ -209,10 +73,11 @@
                 </div>
                 -->
                 <div>
-                    <p>
+                    <h4>
                         <a href="#wiiVC">Platform Differences</a>
-                    </p>
+                    </h4>
                 </div>
+            </div>
             </nav>
             <header>
                 <!--<h1 class="myStyle">Paper Mario (Nintendo 64)</h1>-->
@@ -253,11 +118,13 @@
                 </h1>
                 <div>
                     <p>
-                        The main gimmick of Paper Mario is the fact that it has a story at all, despite being a Mario game; <br>this is the reason that the Japanese version of the game is named "Mario Story" rather than "Paper Mario", <br>unlike rest of the series.
+                        The main gimmick of Paper Mario is the fact that it has a story at all, despite being a Mario game; this is the reason that the Japanese version of the game is named "Mario Story" rather than "Paper Mario", unlike rest of the series.
                     </p>
+                    <br>
                     <p>
-                        Paper Mario's story starts off with usual Mario antagonist Bowser stealing the mystical Star Rod, which can grant any wish. This is so, when Mario next gains the upper hand during Bowser's next attempt to kidnap Princess Peach, the Koopa King can just make himself invincible and knock Mario out of the upper atmosphere. <br>(This particular kidnapping attempt involved airlifting Peach's castle to space, seemingly for no reason.)
+                        Paper Mario's story starts off with usual Mario antagonist Bowser stealing the mystical Star Rod, which can grant any wish. This is so, when Mario next gains the upper hand during Bowser's next attempt to kidnap Princess Peach, the Koopa King can just make himself invincible and knock Mario out of the upper atmosphere. This particular kidnapping attempt involved airlifting Peach's castle to space, seemingly for no reason.
                     </p>
+                    <br>
                     <p>
                         After recovering from playing the part of a human comet, helping the inhabitants of the Mushroom Kingdom repel Bowser's forces, and rescuing the seven spirits to whom the Star Rod rightfully belongs, the spirits inform Mario that they can nullify Bowser's invincibility wish with the Star Beam attack and transport Mario and his assembled party to Bowser's castle. With some timely intervention from Princess Peach to get past Bowser's countermeasure for the Star Beam, Mario defeats Bowser and everything goes back to normal.
                     </p>
@@ -274,17 +141,19 @@
                         Only one partner can be active at once, and it's game over if Mario dies no matter what, 
                         but to make up for this partners have infinite HP and can only be hit by a select few enemy attacks. 
                     </p>
+                    <br>
                     <p>
                         Battles mainly rely on "Badges", a point-buy-based replacement for traditional equipment, 
                         and "Action Commands", inputs that can be done during attack animations in order to boost damage or trigger additional effects. 
                     </p>
+                    <br>
                     <p>
                         Mario himself has access to two forms of traditional role-playing game equipment, both in the form of things that are permanently upgraded throughout the story: 
                         Hammers, which each grant Mario an additional hammer-based attack during battles and can destroy increasingly tough blocks, 
                         and Boots, which do something similar for Mario's jumping ability; 
                         without specific Badges equipped, some foes are unable to be hit with Mario's hammer, and a few such as Spinys hurt if Mario tries to jump on them. 
                         Upgrading partners, by contrast, only gives them a new attack, and is done by using the optional Super Blocks; 
-                        each partner can be upgraded up to twice once you reach the halfway point of chapter five. (Of eight)
+                        each partner can be upgraded up to twice once you reach the halfway point of chapter five - of eight.
                     </p>
                 </div>
             </section>
@@ -293,20 +162,24 @@
                     Characters
                 </h1>
                 <div>
-                    <p>
+                    <p style="color:#e8e8e8">
                         Paper Mario’s visual designs are largely consistent with two sources: the overall world was modeled to resemble a pop&#8209;up book, and the art style, while inspired by PaRappa the Rapper and traditionally animated films, mostly resembles the graphics of Super Mario World 2: Yoshi's Island.
                         Several types of creatures that are exclusively enemies in the main series appear in this game as both enemies and friendly party members and non-player characters.
                     </p>
-                    <p>
-                        The methods used to distinguish between the designs of friend and foe vary on a case-by-case basis: <br>Koopas use their then-normal designs as NPCs, and shade-wearing, more villainous-looking versions as enemies; <br>Bob-ombs use the standard black color as foes, while the rebel Bob-ombs that assist Mario against the Ninja-Turtle-parodying Koopa Bros. during Chapter 1 come in a wide variety of colors; <br>Hostile Goombas use a strange variant on their then-current design, while all friendly Goombas use unique designs.
+                    <br>
+                    <p style="color:#e8e8e8">
+                        The methods used to distinguish between the designs of friend and foe vary on a case-by-case basis: Koopas use their then-normal designs as NPCs, and shade-wearing, more villainous-looking versions as enemies; Bob-ombs use the standard black color as foes, while the rebel Bob-ombs that assist Mario against the Ninja-Turtle-parodying Koopa Bros. during Chapter 1 come in a wide variety of colors; Hostile Goombas use a strange variant on their then-current design, while all friendly Goombas use unique designs.
                     </p>
-                    <p>
+                    <br>
+                    <p style="color:#e8e8e8">
                         Major characters such as party members and bosses also use unique designs, such as party member Watt, who is given a diminutive stature and a blue baby pacifier despite already being the only instance in the entire game of Super Mario World's Lil Sparky enemy.
                     </p>
-                    <p>
+                    <br>
+                    <p style="color:#e8e8e8">
                         Subsequent entries in the series use a subtly, yet noticeably different art style that places more of an emphasis on paper in general, or in Super Paper Mario's case Adobe Animate projects, rather than pop-up books specifically.
                     </p>
-                    <p>
+                    <br>
+                    <p style="color:#e8e8e8">
                         Unusually for Mario games released at the time, and even more unusually when compared to modern Mario games, the design of Mario himself is largely based on the Super Mario World version of "Small Mario", the base form used in Mario's two-dimensional outings when he lacks any sort of power&#8209;up, rather than the "Super Mario" form traditionally obtained in the aforementioned games by collecting a Super Mushroom.
                     </p>
                 </div>
@@ -328,15 +201,17 @@
                     Game Audio
                 </h1>
                 <div>
-                    <p>
+                    <p style="color:#ededed;">
                         The first set of interesting things about the audio in Paper Mario, rather than being any of its eighty or so pieces of music, are five of the six obtainable badges, out of a grand total of eighty, that cost no Badge Points to equip: the 'Attack FX A' through 'Attack FX E' badges each cause Mario to make a different noise when attacking in battle, respectively the sound played when revived by a Life Shroom item, a slide whistle effect, an unidentifiable synthetic <em>thing</em>, a set of jingling bells, and Yoshi's vocal sound from Super Mario World.
                     </p>
-                    <p>
-                        This game shares it's main (and only) composer, Yuka Tsujiyoko, with the first seven installments in the Fire Emblem series. 
-                        Despite Paper Mario having a noticeably different tone from Fire Emblem: Genealogy of the Holy War, the games' respective soundtracks use the same soundfont (collection of pre-recorded instrument samples) and compositional styles that are in several cases extremely similar, if one pays attention; 
+                    <br>
+                    <p style="color:#ededed;">
+                        This game shares it's main - and only - composer, Yuka Tsujiyoko, with the first seven installments in the Fire Emblem series. 
+                        Despite Paper Mario having a noticeably different tone from Fire Emblem: Genealogy of the Holy War, the games' respective soundtracks use the same soundfont - collection of pre-recorded instrument samples - and compositional styles that are in several cases extremely similar, if one pays attention; 
                         this is also in defiance of typical games for the Nintendo 64, which more typically used the soundfont that came with the system devkits, most recognizably used in Super Mario 64.
                     </p>
-                    <p>
+                    <br>
+                    <p style="color:#ededed;">
                         Four pieces of music differ in the Japanese version of Paper Mario from the international version; the official soundtrack for the game uses the Japanese version of all altered songs. 
                         Of these four changed songs, the only particularly interesting alteration is an entirely new theme being composed for the party member recruitment cutscenes; this was most likely because the theme used in the Japanese version greatly resembles the song 'America', from West Side Story.
                     </p>
@@ -369,17 +244,18 @@
                     Platform Differences
                 </h1>
                 <div>
-                    <p>
+                    <p style="color:#e8e8e8;">
                         Paper Mario was first released for the Nintendo 64, fourteen days before the announcement of the successor to the Nintendo 64, the GameCube.
-                        It was also rereleased as part of Nintendo's Virtual Console service for the Wii, the Wii U, and (given that Nintendo Switch Online's retro game selection is essentially the same thing as a subscription model) the Nintendo Switch; of these platforms, most dedicated players play on the Nintendo Wii's Virtual Console version, which is by far the least likely to crash in extreme circumstances.
+                        It was also rereleased as part of Nintendo's Virtual Console service for the Wii, the Wii U, and - given that Nintendo Switch Online's retro game selection is essentially the same thing as a subscription model - the Nintendo Switch; of these platforms, most dedicated players play on the Nintendo Wii's Virtual Console version, which is by far the least likely to crash in extreme circumstances.
                     </p>
-                    <p>
+                    <br>
+                    <p style="color:#e8e8e8;">
                         Tidal Wave, an absurdly overpowered move usable by party member Sushie, is also the main example of a difference between the various versions of Paper Mario. Across all versions, the move deals one point of damage to every enemy per action command successfully executed during a time limit; while all versions of the game cap the available number of action commands per Tidal Wave at fourteen, the fourteenth action command itself actually crashes the Nintendo 64 the frame it appears, since the developers were apparently not expecting players to be able to pull off a perfect Tidal Wave. Other versions of the game can show the fourteenth action command, and even allow it to be used, but because the underlying bug with the attack was not patched, it still causes graphical glitches.
                     </p>
                 </div>
             </section>
             <footer>
-                <p>
+                <p style="text-align: center;">
                     <span id="License">MIT License Copyright (c) 2023</span>.
                 </p>
             </footer>
